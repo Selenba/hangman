@@ -1,0 +1,38 @@
+#anchorPane {
+  -fx-background-color: linear-gradient(to bottom right, #1c2331, #0a0e14);
+}
+
+.label {
+  -fx-text-fill : #ffffff;
+}
+
+.button {
+  -fx-background-color: linear-gradient(to bottom, #ffd700, #ffa600);
+  -fx-background-radius: 5;
+  -fx-text-fill: #1c2331;
+  -fx-font-size: 14px;
+  -fx-font-weight: bold;
+}
+
+#buttonReset{
+  -fx-background-color: #e84c3d;
+  -fx-background-radius: 10;
+  -fx-text-fill: white;
+  -fx-font-size: 14px;
+  -fx-font-weight: bold;
+  -fx-padding: 10 20;
+}
+
+.button:hover, .reset-button:hover {
+  -fx-background-color: linear-gradient(to bottom, #ffa600, #ffd700);
+  -fx-background-radius: 5;
+  -fx-text-fill: #1c2331;
+  -fx-cursor: hand;
+}
+
+#buttonReset:hover {
+  -fx-background-color: #c1392b;
+  -fx-background-radius: 10;
+  -fx-text-fill: white;
+  -fx-cursor: hand;
+}
